@@ -1,0 +1,21 @@
+
+################ Year Calculator #######
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?\n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+age_as_int = int(age)
+#########################
+#data assigned
+M = age_as_int * 12
+W = age_as_int * 52
+D = age_as_int * 365
+#########################
+print(" ")
+message = (f"You have {D} days,or {W} weeks,or {M} months left to live.")
+print(message)
+print("So, go out and Make it a get day!!")
+
+################## END ################
